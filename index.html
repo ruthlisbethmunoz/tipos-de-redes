@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de pagina con Botstrap 5</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Curso de redes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tipos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="lan.html">LAN</a></li>
+                  <li><a class="dropdown-item" href="pan.html">PAN</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/portada1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/portada2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section>
+      <div class="row mt-3">
+        <aside class="col-sm-12 col-md-4">
+          <div class="list-group">
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">¿Como funciona las redes</a>
+            <a href="#" class="list-group-item list-group-item-action">Modelo Osi</a>
+            <a href="#" class="list-group-item list-group-item-action">Conmutacion</a>
+          </div>
+        </aside>
+            <article class="col-sm-12 col-md-8">
+              <!--Definicion de red-->
+              <div class="row">
+                <div id="definicion">
+                  <h1>¿Que es la red?</h1>
+                  <img src="img/portada8.jpeg" alt="">
+                  <p>En informática, se entiende por red (usualmente red informática o red de computadoras) a la interconexión de un número determinado de computadores (o de redes, a su vez) mediante dispositivos alámbricos o inalámbricos que, mediante impulsos eléctricos, ondas electromagnéticas u otros medios físicos, les permiten enviar y recibir información en paquetes de datos, compartir sus recursos y actuar como un conjunto organizado. Las redes cuentan con procesos de emisión y recepción de mensajes, así como de una serie de códigos y estándares que garantizan su comprensión por los computadores conectados a la red (y no por cualquier otro). A dichos estándares de comunicación se los conoce como protocolos, y el más común de ellos actualmente es el TCP/IP.
+                    <p>La construcción de una red permite administrar una comunicación interna, compartir la ejecución de programas o el acceso a Internet, e incluso la administración de periféricos como impresoras, escáneres, etc. Este tipo de sistemas de enjambre sostienen actualmente muchos de los procesos de administración y procesamiento de información en nuestros días, como son las redes de telecomunicaciones, la Internet o las diversas Intranet empresariales o de organizaciones varias. </p>
+                    <p>La aparición de las redes revolucionó el modo de comprender la informática y abrió un nuevo campo dentro de esta disciplina para atender las necesidades de mejoría, seguridad y operatividad de la comunicación informática.</p>
+
+                  </p>
+                </div>
+              </div>
+              <!--/Definicion de red-->
+              <!--funcion de las redes-->
+              <div class="row">
+                <div id="funcion">
+                <h1>¿Cómo funcionan las redes?</h1>
+                <p>Las redes de computadoras conectan nodos como computadoras, enrutadores y conmutadores mediante cables, fibra óptica o señales inalámbricas. Esas conexiones permiten a los dispositivos de una red comunicarse y compartir información y recursos.</p>
+                <img src="img/portada7.jpeg" class="rounded float-start mt-2">
+                <p>Las redes siguen protocolos, que definen cómo se envían y reciben las comunicaciones. Estos protocolos permiten la comunicación de dispositivos. Cada dispositivo en una red utiliza un Internet Protocol o dirección IP, una cadena de números que identifica de forma única un dispositivo y permite que otros lo reconozcan.</p>
+                <!--/funcion de las redes-->
+      </div>
+    </section>
+  </div>
+<footer>
+  <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+  <p class="text-center">
+    Todos los derechos reservados 2024. Diseñadora wed <strong>Ruth Muñoz</strong>
+    </p>
+  </div>
+
+</footer>
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html
